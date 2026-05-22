@@ -199,18 +199,6 @@ uvicorn main:app --reload --port 8000
 | Запуск бэкенда | cd backend && venv\Scripts\activate && uvicorn main:app --reload --port 8000 |
 | Запуск фронтенда | cd frontend && npm start |
 
-## Структура проекта
-
-task_manager/
-├── backend/
-│   ├── main.py
-│   ├── requirements.txt
-│   └── venv/
-├── frontend/
-│   ├── src/
-│   ├── package.json
-│   └── node_modules/
-└── README.md
 
 ## Технологии
 
